@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="ExtendedXmlDocCommentsCompletionProvider.631a0e78-19cf-4988-a089-303350a4f094" Version="2019.10.27.0" Language="en-US" Publisher="EWSoftware" />
+        <DisplayName>Extended XML Doc Comments Completion Provider</DisplayName>
+        <Description xml:space="preserve">An editor extension that augments the standard C# XML documentation comments elements with custom elements, attributes, and attribute values supported by the Sandcastle Help File Builder and other documentation tools.</Description>
+        <MoreInfo>https://github.com/EWSoftware/ExtendedDocCommentsProvider</MoreInfo>
+        <License>License.rtf</License>
+        <GettingStartedGuide>https://ewsoftware.github.io/ExtendedDocCommentsProvider/html/102EF998-5094-482A-B708-9DA64C04C859.htm</GettingStartedGuide>
+        <ReleaseNotes>https://ewsoftware.github.io/ExtendedDocCommentsProvider/html/caa20db4-521f-4c4c-8399-aea8a81ae6a7.htm</ReleaseNotes>
+        <Icon>VSIXPackage.png</Icon>
+        <PreviewImage>VSIXPreview.png</PreviewImage>
+        <Tags>documentation;comments;completion provider;sandcastle;shfb;help file builder</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.7,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.Roslyn.Compiler" Version="[16.0,)" DisplayName="C# and Visual Basic Roslyn compilers" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+    </Assets>
+</PackageManifest>

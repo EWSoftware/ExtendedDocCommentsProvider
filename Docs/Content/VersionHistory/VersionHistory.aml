@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="caa20db4-521f-4c4c-8399-aea8a81ae6a7" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>This topic describes the various changes made to the Extended XML Documentation Comments Provider
+over the life of the project.  Select a version below to see a description of its changes.
+			</para>
+		</introduction>
+
+		<section>
+			<content>
+				<list class="bullet">
+					<listItem>
+						<para>
+							<link xlink:href="34d99bb4-76e2-4f02-b2e4-1feaab4dbba8" />
+						</para>
+					</listItem>
+
+				</list>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="141160ac-ba6a-4f6d-a802-1110aadea932" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>

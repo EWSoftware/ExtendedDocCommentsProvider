@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="141160ac-ba6a-4f6d-a802-1110aadea932" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>Welcome to the <legacyBold>Extended XML Documentation Comments Completion Provider</legacyBold> project.</para>
+		</introduction>
+
+		<!-- Ignore Spelling: cpp, fs, javascript, vbnet, html, xml, xsl, xaml, sql, py, pshell href threadsafety seealso -->
+		
+		<section>
+			<content>
+				<para>This project is a Visual Studio editor extension that augments the standard C# XML documentation
+comments elements with custom elements, attributes, and attribute values supported by the Sandcastle Help File
+Builder and other documentation tools.  The following elements, attributes, and attribute values are provided:</para>
+
+				<table>
+					<tableHeader>
+						<row>
+							<entry>
+								<para>Elements</para>
+							</entry>
+							<entry>
+								<para>Attributes</para>
+							</entry>
+							<entry>
+								<para>Attribute Values</para>
+							</entry>
+						</row>
+					</tableHeader>
+					<row>
+						<entry>
+							<para>AttachedEventComments</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>AttachedPropertyComments</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>code</para>
+						</entry>
+						<entry>
+							<para>language</para>
+						</entry>
+						<entry>
+							<para>cs, cpp, c, fs, javascript, vb, vbnet, html, xml, xsl, xaml, sql, py, pshell, bat, none</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>title</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>source</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>region</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>removeRegionMarkers</para>
+						</entry>
+						<entry>
+							<para>true, false</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>tabSize</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>numberLines</para>
+						</entry>
+						<entry>
+							<para>true, false</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>outlining</para>
+						</entry>
+						<entry>
+							<para>true, false</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>keepSeeTags</para>
+						</entry>
+						<entry>
+							<para>true, false</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>conceptualLink</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>event</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>list</para>
+						</entry>
+						<entry>
+							<para>type</para>
+						</entry>
+						<entry>
+							<para>definition</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>start</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>note</para>
+						</entry>
+						<entry>
+							<para>type</para>
+						</entry>
+						<entry>
+							<para>note, tip, implement, caller, inherit, caution, warning, important, security, cs, cpp, vb</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>overloads</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>preliminary</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>revisionHistory</para>
+						</entry>
+						<entry>
+							<para>visible</para>
+						</entry>
+						<entry>
+							<para>true, false</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>revision</para>
+						</entry>
+						<entry>
+							<para>date</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>version</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>author</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>visible</para>
+						</entry>
+						<entry>
+							<para>true, false</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>see/seealso</para>
+						</entry>
+						<entry>
+							<para>qualifyHint</para>
+						</entry>
+						<entry>
+							<para>true, false</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>autoUpgrade</para>
+						</entry>
+						<entry>
+							<para>true, false</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>href</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>alt</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>target</para>
+						</entry>
+						<entry>
+							<para>_blank, _self, _parent, _top</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>threadsafety</para>
+						</entry>
+						<entry>
+							<para>static</para>
+						</entry>
+						<entry>
+							<para>true, false</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>instance</para>
+						</entry>
+						<entry>
+							<para>true, false</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>token</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+					</row>
+				</table>
+
+				<para>For information on the above elements and all other XML comments elements, see the <externalLink>
+					<linkText>Sandcastle XML Comments Guide</linkText>
+					<linkAlternateText>Sandcastle XML Comments Guide</linkAlternateText>
+					<linkUri>https://EWSoftware.github.io/XMLCommentsGuide/index.html</linkUri>
+					<linkTarget>_blank</linkTarget>
+				</externalLink>.</para>
+			</content>
+		</section>
+
+		<section>
+			<title>Making a Donation</title>
+			<content>
+				<para>If you would like to support this project, you can make a donation of any amount you like by
+clicking on the PayPal donation button below. If you would prefer to donate via check or money order (USD),
+please send me an e-mail at Eric@EWoodruff.us and I will reply with my mailing address.</para>
+
+				<para>
+					<markup>
+						<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=QK8P2B8B5WBJ2"
+							 target="_blank" title="Make a donation">
+							<img border="0" src="../media/PayPal.gif" alt="Make donations with PayPal - It's fast, free and secure!"/>
+						</a>
+					</markup>
+				</para>
+
+				<para>The above method of donating is secure. PayPal guarantees your privacy and security. I never
+receive details of your payment other than the amount, your name, e-mail address, and any optionally entered
+information.</para>
+
+				<para>Thanks to those of you that have made a donation. It is much appreciated!</para>
+
+			</content>
+		</section>
+
+		
+		<relatedTopics>
+			<link xlink:href="102EF998-5094-482A-B708-9DA64C04C859" />
+			<link xlink:href="caa20db4-521f-4c4c-8399-aea8a81ae6a7" />
+			<externalLink>
+				<linkText>License Agreement</linkText>
+				<linkUri>https://github.com/EWSoftware/ExtendedDocCommentsProvider/blob/master/LICENSE</linkUri>
+				<linkTarget>_blank</linkTarget>
+			</externalLink>
+		</relatedTopics>
+	</developerConceptualDocument>
+</topic>

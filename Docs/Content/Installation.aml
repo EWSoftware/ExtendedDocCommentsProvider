@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="102EF998-5094-482A-B708-9DA64C04C859" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>To install this package:</para>
+		</introduction>
+
+		<section>
+			<content>
+				<list class="bullet">
+					<listItem>
+						<para>Download the latest release of the VSIX installer from the <externalLink>
+<linkText>Releases</linkText>
+<linkUri>https://GitHub.com/EWSoftware/ExtendedDocCommentsProvider/releases</linkUri>
+<linkTarget>_blank</linkTarget>
+</externalLink> page of this project site.  The package can be installed in Visual Studio 2019 or later.</para>
+					</listItem>
+
+					<listItem>
+						<para>Close all open instances of Visual Studio before installing the package.</para>
+					</listItem>
+
+					<listItem>
+						<para>Run the downloaded package and follow the prompts to install it.  It can be installed in any
+edition of Visual Studio except Express editions.  Express editions are not supported as they do not allow
+installation of third-party extensions.  Consider switching to the newer Community Edition which does support
+them.</para>
+					</listItem>
+
+				</list>
+
+				<para>This package can also be installed from within Visual Studio from the Visual Studio Marketplace
+(<externalLink>
+<linkText>Visual Studio 2019 or later</linkText>
+<linkUri>https://marketplace.visualstudio.com/items?itemName=EWoodruff.ExtendedDocCommentsProvider</linkUri>
+<linkTarget>_blank</linkTarget>
+</externalLink>) using the <ui>Tools | Extension and Updates</ui> option.  Select the online marketplace and
+search for "completion provider".  Include the quote marks for an exact match and find the one created by
+<legacyItalic>EWSoftware</legacyItalic>.  Once found, you can click the <ui>Download</ui> button to download and
+install it.</para>
+
+				<para>Once installed, the extended elements, attributes, and attribute values will be provided in the
+completion popup list in the source code editor when entering XML comments.</para>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="141160ac-ba6a-4f6d-a802-1110aadea932" />
+		</relatedTopics>
+	</developerConceptualDocument>
+</topic>
