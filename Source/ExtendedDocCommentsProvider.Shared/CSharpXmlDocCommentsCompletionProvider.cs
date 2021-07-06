@@ -42,8 +42,12 @@ namespace EWSoftware.CompletionProviders
     /// tools.
     /// </summary>
     /// <remarks>The core logic used to determine which completion items to return based on the current context
-    /// is based largely on the Roslyn XML comments completion providers.</remarks>
+    /// is based largely on the Roslyn XML comments completion providers.  This runs after the built in C#
+    /// comments provider so that our extensions override the ones provided by it such as <c>code</c>.  This
+    /// allows our before/after text options to work properly.  The built in provider is internal so we need to
+    /// specify it's name as a literal string in the attribute.</remarks>
     [ExportCompletionProvider(nameof(CSharpXmlDocCommentsCompletionProvider), LanguageNames.CSharp)]
+    [ExtensionOrder(After = "XmlDocCommentCompletionProvider")]
     internal sealed class CSharpXmlDocCommentsCompletionProvider : CompletionProvider
     {
         #region CompletionProvider abstract method implementation
@@ -374,6 +378,7 @@ namespace EWSoftware.CompletionProviders
                 (elementName, attributes) = GetElementNameAndAttributes(token.Parent.Parent);
             }
             else
+            {
                 if(token.Parent.IsKind(SyntaxKind.XmlCrefAttribute) || token.Parent.IsKind(SyntaxKind.XmlNameAttribute) ||
                   token.Parent.IsKind(SyntaxKind.XmlTextAttribute))
                 {
@@ -386,6 +391,7 @@ namespace EWSoftware.CompletionProviders
                     if(token == attributeSyntax.EndQuoteToken)
                         (elementName, attributes) = GetElementNameAndAttributes(attributeSyntax.Parent);
                 }
+            }
 
             if(attributes != null)
                 attributeNames = new HashSet<string>(attributes.Select(attr => attr.Name.LocalName.ValueText));
