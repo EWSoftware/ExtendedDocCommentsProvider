@@ -5,7 +5,7 @@
       <HelpKeyword index="K" term="Welcome" />
     </HelpKeywords>
   </Topic>
-  <Topic id="102EF998-5094-482A-B708-9DA64C04C859" visible="True" isSelected="true" title="Installation Instructions and Usage Notes">
+  <Topic id="102EF998-5094-482A-B708-9DA64C04C859" visible="True" title="Installation Instructions and Usage Notes">
     <HelpKeywords>
       <HelpKeyword index="K" term="installation" />
       <HelpKeyword index="K" term="usage" />
@@ -30,9 +30,14 @@
     <HelpKeywords>
       <HelpKeyword index="K" term="version, history" />
     </HelpKeywords>
+    <Topic id="16fd137b-699a-4260-906f-59d94818ff7a" visible="True" isSelected="true" title="Version 2021.7.5.0">
+      <HelpKeywords>
+        <HelpKeyword index="K" term="versions, 2021.7.5.0" />
+      </HelpKeywords>
+    </Topic>
     <Topic id="34d99bb4-76e2-4f02-b2e4-1feaab4dbba8" visible="True" title="Version 2019.10.27.0">
       <HelpKeywords>
-        <HelpKeyword index="K" term="version, 2019.10.27.0" />
+        <HelpKeyword index="K" term="versions, 2019.10.27.0" />
       </HelpKeywords>
     </Topic>
   </Topic>

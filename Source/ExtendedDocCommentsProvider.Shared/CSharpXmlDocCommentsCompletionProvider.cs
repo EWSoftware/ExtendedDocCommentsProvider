@@ -2,8 +2,8 @@
 // System  : Extended Doc Comments Completion Provider Package
 // File    : CSharpXmlDocCommentsCompletionProvider.cs
 // Author  : Eric Woodruff  (Eric@EWoodruff.us)
-// Updated : 10/22/2019
-// Note    : Copyright 2019, Eric Woodruff, All rights reserved
+// Updated : 07/05/2021
+// Note    : Copyright 2019-2021, Eric Woodruff, All rights reserved
 //
 // This file contains the extended documentation comments completion provider for C#
 //
@@ -14,7 +14,7 @@
 //
 //    Date     Who  Comments
 // ==============================================================================================================
-// 10/09/2013  EFW  Created the code
+// 10/09/2019  EFW  Created the code
 //===============================================================================================================
 
 // Ignore Spelling: lexer attr cref
@@ -181,7 +181,7 @@ namespace EWSoftware.CompletionProviders
         /// <param name="trigger">The action that triggered the completion to start</param>
         /// <param name="cancellationToken">A cancellation token used to cancel the operation</param>
         /// <returns>An enumerable set of completion items if any are determined to be relevant</returns>
-        private async Task<IEnumerable<CompletionItem>> GetItemsAsync(Document document, int position,
+        private static async Task<IEnumerable<CompletionItem>> GetItemsAsync(Document document, int position,
           CompletionTrigger trigger, CancellationToken cancellationToken)
         {
             try

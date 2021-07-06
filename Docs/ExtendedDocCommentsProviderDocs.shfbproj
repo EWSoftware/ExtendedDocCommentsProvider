@@ -138,6 +138,7 @@
     <None Include="Content\KnownIssues.aml" />
     <None Include="Content\SystemRequirements.aml" />
     <None Include="Content\VersionHistory\v2019.10.27.0.aml" />
+    <None Include="Content\VersionHistory\v2021.7.5.0.aml" />
     <None Include="Content\VersionHistory\VersionHistory.aml" />
     <None Include="Content\Welcome.aml" />
   </ItemGroup>

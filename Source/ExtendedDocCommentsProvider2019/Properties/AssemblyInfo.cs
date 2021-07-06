@@ -2,8 +2,8 @@
 // System  : Extended Doc Comments Completion Provider Package
 // File    : AssemblyInfo.cs
 // Author  : Eric Woodruff  (Eric@EWoodruff.us)
-// Updated : 10/27/2019
-// Note    : Copyright 2019, Eric Woodruff, All rights reserved
+// Updated : 07/05/2021
+// Note    : Copyright 2019-2021, Eric Woodruff, All rights reserved
 //
 // Extended documentation comments completion provider package attributes
 //
@@ -29,7 +29,7 @@ using System.Runtime.InteropServices;
     "elements with custom elements, attributes, and attribute values supported by the Sandcastle Help File " +
     "Builder and other documentation tools")]
 [assembly: AssemblyCompany("Eric Woodruff")]
-[assembly: AssemblyCopyright("Copyright \xA9 2019, Eric Woodruff, All Rights Reserved")]
+[assembly: AssemblyCopyright("Copyright \xA9 2019-2021, Eric Woodruff, All Rights Reserved")]
 [assembly: AssemblyCulture("")]
 #if DEBUG
 [assembly: AssemblyConfiguration("Debug")]
@@ -54,21 +54,18 @@ using System.Runtime.InteropServices;
 //      Revision (typically zero unless multiple releases are made on the same day)
 //
 
-// Common assembly strong name version - DO NOT CHANGE UNLESS NECESSARY.
-//
-// This is used to set the assembly version in the strong name.  This should remain unchanged to maintain binary
-// compatibility with prior releases.  It should only be changed if a breaking change is made that requires
-// assemblies that reference older versions to be recompiled against the newer version.
-[assembly: AssemblyVersion("2019.10.27.0")]
+// Common assembly strong name version - Typically not change unless necessary but doesn't apply to this project
+// as it is self-contained and is not referenced by anything else.  Keep it in sync with the versions below.
+[assembly: AssemblyVersion("2021.7.5.0")]
 
 // Common assembly file version
 //
 // This is used to set the assembly file version.  This will change with each new release.  MSIs only support a
 // Major value between 0 and 255 so we drop the century from the year on this one.
-[assembly: AssemblyFileVersion("19.10.27.0")]
+[assembly: AssemblyFileVersion("21.7.5.0")]
 
 // Common product version
 //
 // This may contain additional text to indicate Alpha or Beta states.  The version number will always match the
 // file version above but includes the century on the year.
-[assembly: AssemblyInformationalVersion("2019.10.27.0")]
+[assembly: AssemblyInformationalVersion("2021.7.5.0")]

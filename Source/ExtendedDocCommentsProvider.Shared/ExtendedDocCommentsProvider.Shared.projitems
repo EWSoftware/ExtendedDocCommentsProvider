@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>4d11091e-ebee-4b03-a201-4d1a2dd6a465</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ExtendedDocCommentsProvider.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)CommentsElement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSharpXmlDocCommentsCompletionProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ElementAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ElementUsage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SyntaxExtensions.cs" />
+  </ItemGroup>
+</Project>

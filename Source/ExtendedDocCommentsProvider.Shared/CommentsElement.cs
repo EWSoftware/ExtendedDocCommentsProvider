@@ -14,7 +14,7 @@
 //
 //    Date     Who  Comments
 // ==============================================================================================================
-// 10/18/2013  EFW  Created the code
+// 10/18/2019  EFW  Created the code
 //===============================================================================================================
 
 // Ignore Spelling: cpp fs javascript vbnet html xml xsl xaml sql py pshell cref threadsafety href seealso
@@ -252,7 +252,6 @@ namespace EWSoftware.CompletionProviders
         /// <summary>
         /// Create the default comment element dictionary
         /// </summary>
-        /// <list type="m"
         /// <returns>A dictionary containing the default comment element information</returns>
         private static Dictionary<string, CommentsElement> CreateDefaultCommentElements()
         {
