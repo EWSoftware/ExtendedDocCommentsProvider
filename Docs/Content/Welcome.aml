@@ -5,7 +5,7 @@
 			<para>Welcome to the <legacyBold>Extended XML Documentation Comments Completion Provider</legacyBold> project.</para>
 		</introduction>
 
-		<!-- Ignore Spelling: cpp, fs, javascript, vbnet, html, xml, xsl, xaml, sql, py, pshell href threadsafety seealso -->
+		<!-- Ignore Spelling: cpp, fs, javascript, vbnet, html, xml, xsl, xaml, sql, py, pshell href threadsafety seealso todo -->
 		
 		<section>
 			<content>
@@ -200,7 +200,18 @@ Builder and other documentation tools.  The following elements, attributes, and 
 							<para>type</para>
 						</entry>
 						<entry>
-							<para>note, tip, implement, caller, inherit, caution, warning, important, security, cs, cpp, vb</para>
+							<para>note, tip, implement, caller, inherit, caution, warning, important, security, cs, cpp, vb, todo</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>&#160;</para>
+						</entry>
+						<entry>
+							<para>title</para>
+						</entry>
+						<entry>
+							<para>&#160;</para>
 						</entry>
 					</row>
 					<row>

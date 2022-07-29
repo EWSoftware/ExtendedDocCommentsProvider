@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="ExtendedXmlDocCommentsCompletionProvider.81A83AB8-8153-4F50-B9BC-C851F019EE5C" Version="2021.7.5.0" Language="en-US" Publisher="EWSoftware" />
+        <Identity Id="ExtendedXmlDocCommentsCompletionProvider.81A83AB8-8153-4F50-B9BC-C851F019EE5C" Version="2022.7.29.0" Language="en-US" Publisher="EWSoftware" />
         <DisplayName>Extended XML Doc Comments Provider (VS2022+)</DisplayName>
         <Description xml:space="preserve">An editor extension that augments the standard C# XML documentation comments elements with custom elements, attributes, and attribute values supported by the Sandcastle Help File Builder and other documentation tools.</Description>
         <MoreInfo>https://github.com/EWSoftware/ExtendedDocCommentsProvider</MoreInfo>

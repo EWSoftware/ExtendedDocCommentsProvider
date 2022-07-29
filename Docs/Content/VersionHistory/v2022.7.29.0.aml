@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="23ea721a-0a75-48c7-8457-7614bf3c4926" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>Changes made in this release:</para>
+		</introduction>
+
+		<section>
+			<content>
+
+				<list class="bullet">
+					<listItem>
+						<para>Added support for the <codeInline>title</codeInline> attribute and the <codeInline>todo</codeInline>
+note type for the <codeInline>note</codeInline> XML comments element.</para>
+					</listItem>
+				</list>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="caa20db4-521f-4c4c-8399-aea8a81ae6a7" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>

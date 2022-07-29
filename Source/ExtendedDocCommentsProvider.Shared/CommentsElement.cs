@@ -2,8 +2,8 @@
 // System  : Extended Doc Comments Completion Provider Package
 // File    : CommentsElement.cs
 // Author  : Eric Woodruff  (Eric@EWoodruff.us)
-// Updated : 10/22/2019
-// Note    : Copyright 2019, Eric Woodruff, All rights reserved
+// Updated : 07/29/2022
+// Note    : Copyright 2019-2022, Eric Woodruff, All rights reserved
 //
 // This file contains the class used to define an XML documentation comments element
 //
@@ -17,7 +17,7 @@
 // 10/18/2019  EFW  Created the code
 //===============================================================================================================
 
-// Ignore Spelling: cpp fs javascript vbnet html xml xsl xaml sql py pshell cref threadsafety href seealso
+// Ignore Spelling: cpp fs javascript vbnet html xml xsl xaml sql py pshell cref threadsafety href seealso todo
 
 using System;
 using System.Collections.Generic;
@@ -343,8 +343,9 @@ namespace EWSoftware.CompletionProviders
                     Description = "Create a note within a topic to draw attention to some important information."
                 }.AddAttributes(new [] {
                     new ElementAttribute(new[] { "note", "tip", "implement", "caller", "inherit", "caution",
-                        "warning", "important", "security", "cs", "cpp", "vb" }) {
-                        Name = "type", Description = "Specifies the note type." }
+                        "warning", "important", "security", "cs", "cpp", "vb", "todo" }) {
+                        Name = "type", Description = "Specifies the note type." },
+                    new ElementAttribute { Name = "title", Description = "An optional title override" }
                 }),
                 new CommentsElement
                 {

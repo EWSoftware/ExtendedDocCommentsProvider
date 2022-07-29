@@ -9,11 +9,13 @@
 			<content>
 				<list class="bullet">
 					<listItem>
-						<para>Download the latest release of the VSIX installer from the <externalLink>
+						<para>Download the latest release of the VSIX installer for your version of Visual Studio from the
+<externalLink>
 <linkText>Releases</linkText>
 <linkUri>https://GitHub.com/EWSoftware/ExtendedDocCommentsProvider/releases</linkUri>
 <linkTarget>_blank</linkTarget>
-</externalLink> page of this project site.  The package can be installed in Visual Studio 2019 or later.</para>
+</externalLink> page of the project site.  The package can be installed in Visual Studio 2019 or Visual Studio
+2022 or later.</para>
 					</listItem>
 
 					<listItem>
@@ -21,21 +23,23 @@
 					</listItem>
 
 					<listItem>
-						<para>Run the downloaded package and follow the prompts to install it.  It can be installed in any
-edition of Visual Studio except Express editions.  Express editions are not supported as they do not allow
-installation of third-party extensions.  Consider switching to the newer Community Edition which does support
-them.</para>
+						<para>Run the downloaded package and follow the prompts to install it.</para>
 					</listItem>
 
 				</list>
 
 				<para>This package can also be installed from within Visual Studio from the Visual Studio Marketplace
 (<externalLink>
-<linkText>Visual Studio 2019 or later</linkText>
+<linkText>Visual Studio 2019</linkText>
 <linkUri>https://marketplace.visualstudio.com/items?itemName=EWoodruff.ExtendedDocCommentsProvider</linkUri>
 <linkTarget>_blank</linkTarget>
+</externalLink> or 
+<externalLink>
+<linkText>Visual Studio 2022 or later</linkText>
+<linkUri>https://marketplace.visualstudio.com/items?itemName=EWoodruff.ExtendedDocCommentsProvider2022</linkUri>
+<linkTarget>_blank</linkTarget>
 </externalLink>) using the <ui>Tools | Extension and Updates</ui> option.  Select the online marketplace and
-search for "completion provider".  Include the quote marks for an exact match and find the one created by
+search for "doc comments provider".  Include the quote marks for an exact match and find the one created by
 <legacyItalic>EWSoftware</legacyItalic>.  Once found, you can click the <ui>Download</ui> button to download and
 install it.</para>
 

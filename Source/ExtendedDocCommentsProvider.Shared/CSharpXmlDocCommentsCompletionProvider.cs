@@ -2,8 +2,8 @@
 // System  : Extended Doc Comments Completion Provider Package
 // File    : CSharpXmlDocCommentsCompletionProvider.cs
 // Author  : Eric Woodruff  (Eric@EWoodruff.us)
-// Updated : 07/05/2021
-// Note    : Copyright 2019-2021, Eric Woodruff, All rights reserved
+// Updated : 07/29/2021
+// Note    : Copyright 2019-2022, Eric Woodruff, All rights reserved
 //
 // This file contains the extended documentation comments completion provider for C#
 //
@@ -194,7 +194,7 @@ namespace EWSoftware.CompletionProviders
                 var token = tree.FindTokenOnLeftOfPosition(position, cancellationToken);
                 var parentTrivia = token.Parent?.FirstAncestorOrSelf<DocumentationCommentTriviaSyntax>();
 
-                if(parentTrivia == null || parentTrivia.ParentTrivia.Token.Kind() == SyntaxKind.None)
+                if(parentTrivia == null || parentTrivia.ParentTrivia.Token.IsKind(SyntaxKind.None))
                     return null;
 
                 // Offer attribute names based on the element
