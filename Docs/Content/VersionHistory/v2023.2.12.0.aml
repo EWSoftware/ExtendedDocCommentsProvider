@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="6857ece7-59b8-4ad0-86bd-ae7453b97faf" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>Changes made in this release:</para>
+		</introduction>
+
+		<section>
+			<content>
+
+				<list class="bullet">
+					<listItem>
+						<para>Added the self-closing option to the <codeInline>see</codeInline> and <codeInline>seealso</codeInline>
+elements.</para>
+					</listItem>
+				</list>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="caa20db4-521f-4c4c-8399-aea8a81ae6a7" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>

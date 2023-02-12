@@ -2,8 +2,8 @@
 // System  : Extended Doc Comments Completion Provider Package
 // File    : AssemblyInfo.cs
 // Author  : Eric Woodruff  (Eric@EWoodruff.us)
-// Updated : 07/29/2021
-// Note    : Copyright 2019-2022, Eric Woodruff, All rights reserved
+// Updated : 02/12/2023
+// Note    : Copyright 2019-2023, Eric Woodruff, All rights reserved
 //
 // Extended documentation comments completion provider package attributes
 //
@@ -56,16 +56,16 @@ using System.Runtime.InteropServices;
 
 // Common assembly strong name version - Typically not change unless necessary but doesn't apply to this project
 // as it is self-contained and is not referenced by anything else.  Keep it in sync with the versions below.
-[assembly: AssemblyVersion("2022.7.29.0")]
+[assembly: AssemblyVersion("2023.2.12.0")]
 
 // Common assembly file version
 //
 // This is used to set the assembly file version.  This will change with each new release.  MSIs only support a
 // Major value between 0 and 255 so we drop the century from the year on this one.
-[assembly: AssemblyFileVersion("22.7.29.0")]
+[assembly: AssemblyFileVersion("23.2.12.0")]
 
 // Common product version
 //
 // This may contain additional text to indicate Alpha or Beta states.  The version number will always match the
 // file version above but includes the century on the year.
-[assembly: AssemblyInformationalVersion("2022.7.29.0")]
+[assembly: AssemblyInformationalVersion("2023.2.12.0")]

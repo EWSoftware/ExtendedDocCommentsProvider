@@ -2,8 +2,8 @@
 // System  : Extended Doc Comments Completion Provider Package
 // File    : CommentsElement.cs
 // Author  : Eric Woodruff  (Eric@EWoodruff.us)
-// Updated : 07/29/2022
-// Note    : Copyright 2019-2022, Eric Woodruff, All rights reserved
+// Updated : 02/10/2023
+// Note    : Copyright 2019-2023, Eric Woodruff, All rights reserved
 //
 // This file contains the class used to define an XML documentation comments element
 //
@@ -395,6 +395,7 @@ namespace EWSoftware.CompletionProviders
                     ElementUsage = ElementUsage.Nested,
                     TextBeforeCaret = "cref=\"",
                     TextAfterCaret = "\"",
+                    IsSelfClosing = true,
                     Description = "Create an inline link to another API topic or an external website."
                 }.AddAttributes(new[] {
                     new ElementAttribute(new[] { "true", "false" }) {
@@ -414,6 +415,7 @@ namespace EWSoftware.CompletionProviders
                     ElementUsage = ElementUsage.Nested,
                     TextBeforeCaret = "cref=\"",
                     TextAfterCaret = "\"",
+                    IsSelfClosing = true,
                     Description = "Create an link to another API topic or an external website in the See Also " +
                         "section of a help topic."
                 }.AddAttributes(new[] {
