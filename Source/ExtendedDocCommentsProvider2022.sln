@@ -12,7 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		ExtendedDocCommentsProvider.snk = ExtendedDocCommentsProvider.snk
-		ExtendedDocCommentsProvider2022.sln.vsspell = ExtendedDocCommentsProvider2022.sln.vsspell
 	EndProjectSection
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ExtendedDocCommentsProvider.Shared", "ExtendedDocCommentsProvider.Shared\ExtendedDocCommentsProvider.Shared.shproj", "{4D11091E-EBEE-4B03-A201-4D1A2DD6A465}"
