@@ -116,6 +116,8 @@
 &amp;lt%3bdiv data-type=&amp;quot%3bad&amp;quot%3b data-publisher=&amp;quot%3bewsoftware.github.io&amp;quot%3b data-format=&amp;quot%3b728x90&amp;quot%3b data-zone=&amp;quot%3bExtendedDocComments&amp;quot%3b&amp;gt%3b&amp;lt%3b/div&amp;gt%3b
 </WebsiteAdContent>
     <AppendMarkdownFileExtensionsToUrls>False</AppendMarkdownFileExtensionsToUrls>
+    <DocumentationSources>
+    </DocumentationSources>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->

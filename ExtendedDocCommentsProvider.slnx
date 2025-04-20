@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="Docs/ExtendedDocCommentsProviderDocs.shfbproj" Type="7cf6df6d-3b04-46f8-a40b-537d21bca0b4" Id="a405f2b6-a092-4dea-bc1e-4b9435e1b94f">
+    <BuildDependency Project="Source/ExtendedDocCommentsProvider.csproj" />
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+  <Project Path="Source/ExtendedDocCommentsProvider.csproj" Id="ac787f6b-6fb3-4f84-b8ae-26252450f07c" />
+</Solution>
