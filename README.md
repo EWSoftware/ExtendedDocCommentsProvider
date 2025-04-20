@@ -1,3 +1,5 @@
+This is a legacy branch that contains support for Visual Studio 2019.
+
 Welcome to the **Extended XML Documentation Comments Completion Provider** project.
 
 * [Get the current release](https://github.com/EWSoftware/ExtendedDocCommentsProvider/releases)
