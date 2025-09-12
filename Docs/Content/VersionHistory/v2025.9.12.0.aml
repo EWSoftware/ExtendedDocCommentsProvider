@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="f05af659-63c9-439b-8e07-3105f10cfb4a" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>Changes made in this release:</para>
+
+			<alert class="important">
+				<para>As of this release, only Visual Studio 2022 and later are supported.  Support for Visual Studio
+2019 has been dropped.  I do not use the older versions anymore, it will allow me to simplify the extension
+projects and keep the package references more up to date without the risk of breaking the build, and implement
+future features without regard to maintaining backward compatibility with the older versions.</para>
+			</alert>
+		</introduction>
+
+		<section>
+			<content>
+				<list class="bullet">
+					<listItem>
+						<para>Enabled installation on ARM64 PCs.</para>
+					</listItem>
+
+					<listItem>
+						<para>Enabled installation in Visual Studio 2026.</para>
+					</listItem>
+				</list>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="caa20db4-521f-4c4c-8399-aea8a81ae6a7" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>

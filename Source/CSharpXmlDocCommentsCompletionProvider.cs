@@ -2,8 +2,8 @@
 // System  : Extended Doc Comments Completion Provider Package
 // File    : CSharpXmlDocCommentsCompletionProvider.cs
 // Author  : Eric Woodruff  (Eric@EWoodruff.us)
-// Updated : 07/29/2021
-// Note    : Copyright 2019-2022, Eric Woodruff, All rights reserved
+// Updated : 09/12/2025
+// Note    : Copyright 2019-2025, Eric Woodruff, All rights reserved
 //
 // This file contains the extended documentation comments completion provider for C#
 //
@@ -154,12 +154,12 @@ namespace EWSoftware.CompletionProviders
 
                 if(fi != null)
                 {
-                    if(fi.GetValue(options) is ImmutableDictionary<OptionKey, object> optionValues)
+                    if(fi.GetValue(options) is ImmutableDictionary<OptionKey, object> optionValues && optionValues.Count != 0)
                     {
                         var key = optionValues.Keys.FirstOrDefault(k => k.Language == LanguageNames.CSharp &&
                             k.Option.Name == nameof(TriggerOnTypingLetters) && k.Option.Type == typeof(bool));
 
-                        if(key != null)
+                        if(key.Language != null)
                             return (bool)optionValues[key];
                     }
                 }
@@ -420,6 +420,7 @@ namespace EWSoftware.CompletionProviders
                 attributeSyntax = (XmlTextAttributeSyntax)token.Parent;
             }
             else
+            {
                 if(token.Parent.IsKind(SyntaxKind.XmlNameAttribute) || token.Parent.IsKind(SyntaxKind.XmlTextAttribute))
                 {
                     // Return the parent attribute if there is no value yet: attr="|
@@ -428,6 +429,7 @@ namespace EWSoftware.CompletionProviders
                     if(token != attributeSyntax.StartQuoteToken)
                         attributeSyntax = null;
                 }
+            }
 
             if(attributeSyntax != null)
             {

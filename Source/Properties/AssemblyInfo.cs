@@ -2,8 +2,8 @@
 // System  : Extended Doc Comments Completion Provider Package
 // File    : AssemblyInfo.cs
 // Author  : Eric Woodruff  (Eric@EWoodruff.us)
-// Updated : 02/12/2023
-// Note    : Copyright 2019-2023, Eric Woodruff, All rights reserved
+// Updated : 09/12/2025
+// Note    : Copyright 2019-2025, Eric Woodruff, All rights reserved
 //
 // Extended documentation comments completion provider package attributes
 //
@@ -29,7 +29,7 @@ using System.Runtime.InteropServices;
     "elements with custom elements, attributes, and attribute values supported by the Sandcastle Help File " +
     "Builder and other documentation tools")]
 [assembly: AssemblyCompany("Eric Woodruff")]
-[assembly: AssemblyCopyright("Copyright \xA9 2019-2022, Eric Woodruff, All Rights Reserved")]
+[assembly: AssemblyCopyright("Copyright \xA9 2019-2025, Eric Woodruff, All Rights Reserved")]
 [assembly: AssemblyCulture("")]
 #if DEBUG
 [assembly: AssemblyConfiguration("Debug")]
@@ -56,16 +56,16 @@ using System.Runtime.InteropServices;
 
 // Common assembly strong name version - Typically not change unless necessary but doesn't apply to this project
 // as it is self-contained and is not referenced by anything else.  Keep it in sync with the versions below.
-[assembly: AssemblyVersion("2023.2.12.0")]
+[assembly: AssemblyVersion("2025.9.12.0")]
 
 // Common assembly file version
 //
 // This is used to set the assembly file version.  This will change with each new release.  MSIs only support a
 // Major value between 0 and 255 so we drop the century from the year on this one.
-[assembly: AssemblyFileVersion("23.2.12.0")]
+[assembly: AssemblyFileVersion("25.9.12.0")]
 
 // Common product version
 //
 // This may contain additional text to indicate Alpha or Beta states.  The version number will always match the
 // file version above but includes the century on the year.
-[assembly: AssemblyInformationalVersion("2023.2.12.0")]
+[assembly: AssemblyInformationalVersion("2025.9.12.0")]
