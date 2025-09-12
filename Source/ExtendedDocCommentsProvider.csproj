@@ -120,7 +120,7 @@
 
 IF NOT EXIST "$(SolutionDir)..\Deployment\" MD "$(SolutionDir)..\Deployment\"
 
-Copy "$(TargetDir)$(TargetName).vsix" "$(SolutionDir)..\Deployment\$(TargetName).vsix"
+Copy "$(TargetDir)$(TargetName).vsix" "$(SolutionDir)Deployment\$(TargetName).vsix"
 
 :Exit
 </PostBuildEvent>
