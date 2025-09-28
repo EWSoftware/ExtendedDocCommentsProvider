@@ -394,8 +394,8 @@ Builder and other documentation tools.  The following elements, attributes, and 
 			<title>Making a Donation</title>
 			<content>
 				<para>If you would like to support this project, you can make a donation of any amount you like by
-clicking on the PayPal donation button below. If you would prefer to donate via check or money order (USD),
-please send me an e-mail at Eric@EWoodruff.us and I will reply with my mailing address.</para>
+clicking on the PayPal donation button below.  Another option is to click the Sponsor button in the page footer
+to sponsor the project on GitHub with either a one-time or monthly amount.</para>
 
 				<para>
 					<markup>
@@ -405,10 +405,6 @@ please send me an e-mail at Eric@EWoodruff.us and I will reply with my mailing a
 						</a>
 					</markup>
 				</para>
-
-				<para>The above method of donating is secure. PayPal guarantees your privacy and security. I never
-receive details of your payment other than the amount, your name, e-mail address, and any optionally entered
-information.</para>
 
 				<para>Thanks to those of you that have made a donation. It is much appreciated!</para>
 
