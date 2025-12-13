@@ -1,59 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topics>
-  <Topic id="141160ac-ba6a-4f6d-a802-1110aadea932" visible="True" isDefault="true" title="Welcome">
-    <HelpKeywords>
-      <HelpKeyword index="K" term="Welcome" />
-    </HelpKeywords>
-  </Topic>
-  <Topic id="102EF998-5094-482A-B708-9DA64C04C859" visible="True" title="Installation Instructions and Usage Notes">
-    <HelpKeywords>
-      <HelpKeyword index="K" term="installation" />
-      <HelpKeyword index="K" term="usage" />
-    </HelpKeywords>
-  </Topic>
-  <Topic id="b146cb94-e594-4462-9262-d5cdba76c331" visible="True" title="Known Issues">
-    <HelpKeywords>
-      <HelpKeyword index="K" term="known issues" />
-    </HelpKeywords>
-  </Topic>
-  <Topic id="3BBB6221-417C-4F5C-B89A-563A8052CE35" visible="True" title="System Requirements and Building the Code">
-    <HelpKeywords>
-      <HelpKeyword index="K" term="system requirements" />
-    </HelpKeywords>
-  </Topic>
-  <Topic id="C60519F2-A2F7-4EB1-883F-96C51073CEB3" visible="True" title="Contributing">
-    <HelpKeywords>
-      <HelpKeyword index="K" term="Contributing" />
-    </HelpKeywords>
-  </Topic>
-  <Topic id="caa20db4-521f-4c4c-8399-aea8a81ae6a7" visible="True" isExpanded="true" isSelected="true" title="Version History">
-    <HelpKeywords>
-      <HelpKeyword index="K" term="version, history" />
-    </HelpKeywords>
-    <Topic id="f05af659-63c9-439b-8e07-3105f10cfb4a" visible="True" title="Version 2025.9.12.0">
-      <HelpKeywords>
-        <HelpKeyword index="K" term="versions, 2025.9.12.0" />
-      </HelpKeywords>
-    </Topic>
-    <Topic id="6857ece7-59b8-4ad0-86bd-ae7453b97faf" visible="True" title="Version 2023.2.12.0">
-      <HelpKeywords>
-        <HelpKeyword index="K" term="versions, 2023.2.12.0" />
-      </HelpKeywords>
-    </Topic>
-    <Topic id="23ea721a-0a75-48c7-8457-7614bf3c4926" visible="True" title="Version 2022.7.29.0">
-      <HelpKeywords>
-        <HelpKeyword index="K" term="versions, 2022.7.29.0" />
-      </HelpKeywords>
-    </Topic>
-    <Topic id="16fd137b-699a-4260-906f-59d94818ff7a" visible="True" title="Version 2021.7.5.0">
-      <HelpKeywords>
-        <HelpKeyword index="K" term="versions, 2021.7.5.0" />
-      </HelpKeywords>
-    </Topic>
-    <Topic id="34d99bb4-76e2-4f02-b2e4-1feaab4dbba8" visible="True" title="Version 2019.10.27.0">
-      <HelpKeywords>
-        <HelpKeyword index="K" term="versions, 2019.10.27.0" />
-      </HelpKeywords>
-    </Topic>
+  <Topic id="141160ac-ba6a-4f6d-a802-1110aadea932" visible="True" isDefault="true" isSelected="true" />
+  <Topic id="102EF998-5094-482A-B708-9DA64C04C859" visible="True" />
+  <Topic id="b146cb94-e594-4462-9262-d5cdba76c331" visible="True" />
+  <Topic id="3BBB6221-417C-4F5C-B89A-563A8052CE35" visible="True" />
+  <Topic id="C60519F2-A2F7-4EB1-883F-96C51073CEB3" visible="True" />
+  <Topic id="caa20db4-521f-4c4c-8399-aea8a81ae6a7" visible="True" isExpanded="true">
+    <Topic id="f05af659-63c9-439b-8e07-3105f10cfb4a" visible="True" />
+    <Topic id="6857ece7-59b8-4ad0-86bd-ae7453b97faf" visible="True" />
+    <Topic id="23ea721a-0a75-48c7-8457-7614bf3c4926" visible="True" />
+    <Topic id="16fd137b-699a-4260-906f-59d94818ff7a" visible="True" />
+    <Topic id="34d99bb4-76e2-4f02-b2e4-1feaab4dbba8" visible="True" />
   </Topic>
 </Topics>
