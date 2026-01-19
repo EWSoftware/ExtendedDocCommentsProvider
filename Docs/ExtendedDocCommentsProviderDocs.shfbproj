@@ -24,14 +24,12 @@
       <Argument Key="BibliographyDataFile" Value="" />
       <Argument Key="RootBreadcrumbTitleText" Value="Extended Doc Comments" />
       <Argument Key="ResizableTocColumn" Value="False" />
-      <Argument Key="CollapsibleSections" Value="False" />
       <Argument Key="LogoFile" Value="" />
       <Argument Key="LogoHeight" Value="" />
       <Argument Key="LogoWidth" Value="" />
       <Argument Key="LogoAltText" Value="" />
       <Argument Key="LogoPlacement" Value="Left" />
       <Argument Key="LogoAlignment" Value="Left" />
-      <Argument Key="LogoUrl" Value="" />
       <Argument Key="MaxVersionParts" Value="" />
       <Argument Key="DefaultLanguage" Value="cs" />
       <Argument Key="IncludeEnumValues" Value="True" />
@@ -39,6 +37,7 @@
       <Argument Key="FlagsEnumValueFormat" Value="IntegerValue" />
       <Argument Key="FlagsEnumSeparatorSize" Value="0" />
       <Argument Key="IncludeIntegerEnumSeparators" Value="true" />
+      <Argument Key="ProjectUrl" Value="https://github.com/EWSoftware/ExtendedDocCommentsProvider" />
       <Argument Key="BaseSourceCodeUrl" Value="" />
       <Argument Key="RequestExampleUrl" Value="" />
       <Argument Key="ShowParametersOnAllMethods" Value="False" />
@@ -85,7 +84,7 @@
     </PlugInConfigurations>
     <HelpFileFormat>Website</HelpFileFormat>
     <SyntaxFilters>Standard</SyntaxFilters>
-    <PresentationStyle>Default2022</PresentationStyle>
+    <PresentationStyle>Themed2026</PresentationStyle>
     <CleanIntermediates>True</CleanIntermediates>
     <KeepLogFile>True</KeepLogFile>
     <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
